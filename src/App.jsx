@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Cards from "./components/Cards";
 import Food from "./components/Food";
 import Category from "./cate/Category.jsx";
+import Footer from "./components/Footer";
 
 const App = () => {
    return (
@@ -13,6 +14,7 @@ const App = () => {
          <Cards />
          <Food />
          <Category />
+         <Footer />
       </div>
    );
 };
